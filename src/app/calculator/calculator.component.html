@@ -1,0 +1,34 @@
+<section class="calcilator">
+    <div class="container text-center py-5" >
+<table class="m-auto">
+    <tr>
+        <td colspan="3"><input id="myAnswer" type="text"  value='{{myInput}}'></td>
+        <td><input type="button" class="num" value="=" (click)="equal()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="num" value="1" (click)="clickNum('1')"></td>
+        <td><input type="button" class="num" value="2" (click)="clickNum('2')"></td>
+        <td><input type="button" class="num" value="3" (click)="clickNum('3')"></td>
+        <td><input type="button" class="num" value="+" (click)="enterOperator('+')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="num" value="4" (click)="clickNum('4')"></td>
+        <td><input type="button" class="num" value="5" (click)="clickNum('5')"></td>
+        <td><input type="button" class="num" value="6" (click)="clickNum('6')"></td>
+        <td><input type="button" class="num" value="-" (click)="enterOperator('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="num" value="7" (click)="clickNum('7')"></td>
+        <td><input type="button" class="num" value="8" (click)="clickNum('8')"></td>
+        <td><input type="button" class="num" value="9" (click)="clickNum('9')"></td>
+        <td><input type="button" class="num" value="*" (click)="enterOperator('*')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="num" value="C" (click)="clear()"></td>
+        <td><input type="button" class="num" value="0" (click)="clickNum('0')"></td>
+        <td><input type="button" class="num" value="." (click)="clickNum('.')"></td>
+        <td><input type="button" class="num" value="/" (click)="enterOperator('/')"> </td>
+    </tr>
+</table>
+</div>
+</section>

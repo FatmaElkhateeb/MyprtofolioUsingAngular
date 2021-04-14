@@ -1,0 +1,9 @@
+.div1,.div2,.div3{
+    height: 150px;
+}
+
+h2{
+    text-shadow: 3px 3px gray;
+    font-size: 45px;
+    text-align: center;
+}
